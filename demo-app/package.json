@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@sellooh/effect-xray": "npm:@jsr/sellooh__effect-xray@^0.1.0",
     "@types/aws-lambda": "^8.10.145",
     "sst": "^3.1.64"
   }

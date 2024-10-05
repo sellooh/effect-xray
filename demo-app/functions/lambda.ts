@@ -1,8 +1,7 @@
+import * as XraySdk from "@sellooh/effect-xray";
 import { APIGatewayProxyEventV2, LambdaFunctionURLHandler } from "aws-lambda";
 import { Effect } from "effect";
-import * as XraySdk from "../../src/XraySdk";
 
-// Function to simulate a task with possible subtasks
 const task = (
   name: string,
   delay: number,
