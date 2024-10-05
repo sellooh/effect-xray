@@ -1,0 +1,20 @@
+{
+  "name": "@sellooh/effect-xray",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@aws-lambda-powertools/tracer": "^2.3.0",
+    "effect": "^3.4.7"
+  }
+}

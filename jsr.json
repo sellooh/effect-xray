@@ -1,0 +1,15 @@
+{
+	"name": "@sellooh/effect-xray",
+	"version": "0.1.0",
+	"exports": "./src/XraySdk.ts",
+	"publish": {
+		"include": [
+			"LICENSE",
+			"README.md",
+			"src/**/*.ts"
+		],
+		"exclude": [
+			"demo-app"
+		]
+	}
+}
