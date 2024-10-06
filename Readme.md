@@ -14,11 +14,12 @@ const program = Effect.gen(function* () {
   yield* Effect.annotateCurrentSpan({ message: "Metadata" });
 }).pipe(
   Effect.withSpan("MyTrace"),
-)
+);
 
 const programLive = program.pipe(
   Effect.provide(XraySdk.layer())
 );
+
 Effect.runPromise(programLive);
 ```
 
