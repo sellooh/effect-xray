@@ -1,3 +1,11 @@
+
+Before using the package you are reading now, consider using effect-aws:
+https://github.com/floydspace/effect-aws/blob/main/packages/powertools-tracer/README.md
+
+Beyond the tracer implementation, It also implementes a logger and many more aws implementations in Effect.
+
+---
+
 # Effect X-Ray
 
 AWS X-Ray Powertools SDK for [Effect](https://effect.website/). This experimental library allows you to trace your Effect programs and send them to AWS X-Ray leveraging the [Powertools SDK](https://docs.powertools.aws.dev/lambda/typescript/latest/core/tracer/).
